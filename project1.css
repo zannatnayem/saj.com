@@ -7,13 +7,11 @@ input.search {
   font-size: 13px;
 }
 @media (max-width: 680px) {
-  .bar {
-    margin-left: 144px;
-  }
-  .portfolio-name {
-    font-size: 109px;
+  .conb {
+    margin-top: -90px;
   }
 }
+
 .scale:hover {
   transform: scale(1.1);
   background-color: aqua;
@@ -53,7 +51,9 @@ h2.text-white.d-block {
   height: 218px;
 }
 .navbar-nav .nav-link {
-  color: rgb(255, 255, 255);
+  color: #000;
+  font-weight: 400;
+  font-family: arial;
 }
 .card {
   border: 4px solid rgb(65 185 143);
@@ -147,4 +147,52 @@ h2.text-white.d-block {
 }
 .picsaj {
   width: 150%;
+}
+
+.fixed-top {
+  min-height: 5rem;
+  font-size: 1.7rem;
+  font-family: arial;
+}
+
+.logo span {
+  font-size: 1.8rem;
+  font-family: arial;
+}
+
+.logo .s {
+  font-family: italic;
+  font-size: 2.3rem;
+}
+
+.login {
+  background: hsl(199deg 84% 62%) !important;
+}
+
+.carousel-inner {
+  min-height: 39vh !important;
+}
+#portfolio .conb {
+  height: 500px;
+}
+.socil2 {
+  margin-bottom: 96px;
+}
+
+img.picsaj.img-fluid.card-img-top {
+  margin-top: -442px !important;
+  width: 200% !important;
+}
+.sajDiv {
+  width: 139%;
+}
+#portfolio .conb {
+  height: 500px;
+  margin-left: 8rem;
+  padding-top: 100px;
+}
+
+.saj-textw-50 {
+  width: 300px !important;
+  font-size: larger;
 }
